@@ -71,6 +71,7 @@ a {
     margin: 0;
     transition: transform 0.1s linear;
     cursor: pointer;
+    text-wrap-mode: nowrap;
 }
 a:hover {
     transform: translateX(var(--offset));
